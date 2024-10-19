@@ -1,0 +1,84 @@
+/* Main app container */
+.App {
+  text-align: center;
+  background-color: #0a0f29; /* Dark background */
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  ::-webkit-scrollbar {
+  width: 12px; /* Largura da barra */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(40, 44, 52, 0.2); /* Fundo transparente com opacidade */
+  border-radius: 10px; /* Suaviza as bordas */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 191, 255, 0.8); /* Cor azul clara, combinando com o card */
+  border-radius: 10px; /* Deixa a barra arredondada */
+  border: 2px solid rgba(40, 44, 52, 0.5); /* Borda com opacidade para contraste */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 191, 255, 1); /* Torna o scroll mais visível ao passar o mouse */
+  border-color: rgba(40, 44, 52, 0.7); /* Aumenta o contraste da borda ao passar o mouse */
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent; /* Remove o fundo no canto do scroll */
+}
+}
+
+/* Customize the logo animation or remove it if not needed */
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear; /* Adjusted for a slower animation */
+  }
+}
+
+/* Example of adding glassmorphism to the header */
+.App-header {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 140, 186, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Adjust links to fit a more modern aesthetic */
+.App-link {
+  color: #00bfff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: color 0.3s ease-in-out;
+}
+
+.App-link:hover {
+  color: #00a0d6;
+}
+
+/* Keyframes for smoother animations */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
