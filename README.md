@@ -7,7 +7,14 @@
 ![Bitbucket open pull requests](https://img.shields.io/github/issues-pr/pumba-dev/pumba-dev-website?style=for-the-badge)
 
 <h2 align="center">☕ Projeto Em Desenvolvimento</h2>
-
+Central de Teste de Software 
+🔧 Automação de Testes para Aplicações Cloud-Native, APIs e Segurança com Integração CI/CD e IA
+Nos últimos meses, tive a oportunidade de desenvolver uma solução completa de automação de testes para garantir resiliência e escalabilidade em aplicações cloud-native, além de criar painéis de monitoramento que integram ferramentas como Kubernetes, Jenkins, e Terraform. 🚀
+🔹 Automação de Testes End-to-End: Implementamos testes em microserviços com simulação de falhas e monitoramento em tempo real via uma interface gráfica interativa.
+🔹 Testes Automatizados de APIs: Construí uma suite de testes para APIs RESTful e GraphQL com validação de contratos e mocking, além de integração contínua com pipelines CI/CD.
+🔹 DevSecOps Automatizado: Automatizamos testes de segurança, incluindo análise de código estático e dinâmico (SAST/DAST), utilizando ferramentas como SonarQube e OWASP ZAP.
+🔹 Framework com IA: Desenvolvemos um framework com Machine Learning para prever falhas em grandes aplicações web, fornecendo relatórios preditivos e sugestões de melhoria automatizadas.
+💡 O foco principal foi garantir automação contínua com feedback em tempo real, elevando a eficiência dos testes de software e integrando ferramentas modernas de DevOps e IA.
 <br />
 
 ![image](https://github.com/user-attachments/assets/baca9471-d49b-49a5-a7f2-eea044a96d81)
